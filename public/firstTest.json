@@ -1,0 +1,9 @@
+  {
+  "direction":"row",
+  "wrap":"wrap-reverse",
+  "justify":"center",
+  "align_content":"space-around",
+  "textContent":"文本内容文本内容文本内容文本内容文本内容文本内容",
+  "imageUrlArray":[{"url":"http://puui.qpic.cn/tv/0/11536175_680382/0"},{"url":"http://puui.qpic.cn/tv/0/11522707_330185/0"},{"url":"http://puui.qpic.cn/tv/0/11579390_330185/0"},{"url":"http://puui.qpic.cn/tv/0/15004160_330185/0"},{"url":"http://i.gtimg.cn/qqlive/images/20160715/only@2x.png"}],
+  "textArray":[{"text":"醉玲珑[热播]", "order":1},{"text":"玲珑夫妇被诅咒！元凌违抗天命也要娶卿尘", "order":1},{"text":"热闻一览《将改革进行到底》今晚播>", "order":1},{"text":"楚乔传今晚更新", "order":1},{"text":"星玥再交手！公子阻拦楚乔", "order":1},{"text":"我的前半生", "order":1},{"text":"马伊琍为闺蜜撕靳东", "order":1},{"text":"楚乔传未播片场花絮", "order":1},{"text":"笑爆了！逗比魔性片场速围观", "order":1}]
+  }
