@@ -1,0 +1,2 @@
+# VNTestServer
+用于测试VideoNative组件的后台交互能力，而提供的后台服务
