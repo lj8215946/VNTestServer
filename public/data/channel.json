@@ -1,0 +1,8 @@
+{
+    "errCode": 0,
+    "hasNextPage": false,
+    "pageContext": "_1",
+    "listData": [
+        {"cellType":"bigPoster","url":"http://puui.qpic.cn/tv/0/16195733_1080607/0", "firstLine":"频道精选", "secondLine":"展示简易版视频首屏实现，包括下拉刷新，分页加载，换一批等功能"}
+    ]
+}
