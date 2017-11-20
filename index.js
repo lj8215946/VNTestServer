@@ -36,12 +36,12 @@ index.get('/data/VNChannelData', function (req, res) {
             "firstLine": "蓝色星球 第二季",
             "secondLine": "展示简易版视频首屏实现，包括下拉刷新，分页加载，换一批等功能"
         }, {
-            "cellType": "titlePoster",
-            "firstLine": "精彩电视剧"
-        }, {
             "cellType": "timePoster",
             "firstLine": "VN为您报时",
             "secondLine": new Date().toTimeString()
+        }, {
+            "cellType": "titlePoster",
+            "firstLine": "精彩电视剧"
         }, {
             "cellType": "contentPoster",
             "url": "http://puui.qpic.cn/vpic/0/o0500ekuesl.png/0",
@@ -64,7 +64,7 @@ index.get('/data/VNChannelData', function (req, res) {
             "firstLine": "超能对决，雷神大战超人，雷神高傲被痛扁"
         }]
     };
-    
+
     res.json(channelData);
 })
 
