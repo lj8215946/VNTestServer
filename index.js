@@ -33,8 +33,8 @@ index.get('/data/VNChannelData', function (req, res) {
     console.log(pageContext);
 
     if ((!pageContext || 0 === pageContext.length)) {
+        VNChannelDataFirstPageDateIsOdd = !VNChannelDataFirstPageDateIsOdd;
         if (VNChannelDataFirstPageDateIsOdd) {
-            VNChannelDataFirstPageDateIsOdd = !VNChannelDataFirstPageDateIsOdd;
             channelData = {
                 "errCode": 0,
                 "hasNextPage": true,
