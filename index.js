@@ -29,13 +29,12 @@ var VNChannelDataFirstPageDateIsOdd = false;
 
 index.get('/data/VNChannelData', function (req, res) {
     var pageContext = req.query.pageContext;
-    VNChannelDataFirstPageDateIsOdd = !VNChannelDataFirstPageDateIsOdd;
-
     var channelData = null;
     console.log(pageContext);
 
     if ((!pageContext || 0 === pageContext.length)) {
         if (VNChannelDataFirstPageDateIsOdd) {
+            VNChannelDataFirstPageDateIsOdd = !VNChannelDataFirstPageDateIsOdd;
             channelData = {
                 "errCode": 0,
                 "hasNextPage": true,
@@ -47,7 +46,7 @@ index.get('/data/VNChannelData', function (req, res) {
                     "secondLine": "展示简易版视频首屏实现，包括下拉刷新，分页加载，换一批等功能"
                 }, {
                     "cellType": "timePoster",
-                    "firstLine": "VN为您报时",
+                    "firstLine": "VN为您报时(点我刷新)",
                     "secondLine": new Date().toTimeString()
                 }, {
                     "cellType": "titlePoster",
