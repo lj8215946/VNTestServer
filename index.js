@@ -96,7 +96,7 @@ index.get('/data/VNChannelData', function (req, res) {
                     "firstLine": "VideoNative功能简介"
                 }, {
                     "cellType": "contentPoster",
-                    "url": "http://i.gtimg.cn/qqlive/images/20160715/only@2x.png",
+                    "url": "http://puui.qpic.cn/tv/0/16196364_680382/0",
                     "firstLine": "李连杰演坏人，最帅的一次！"
                 }, {
                     "cellType": "contentPoster",
