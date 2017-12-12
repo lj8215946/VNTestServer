@@ -29,7 +29,7 @@ var VNChannelDataFirstPageDateIsOdd = false;
 
 index.get('/data/VNChannelData', function (req, res) {
     var pageContext = req.query.pageContext;
-    var channelId = req.query.channelID;
+    var channelID = req.query.channelID;
     var channelData = null;
     console.log(pageContext);
 
