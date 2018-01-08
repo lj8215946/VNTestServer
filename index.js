@@ -21,6 +21,12 @@ index.use(bodyParser.urlencoded({
 //set static path
 index.use(express.static(path.join(__dirname, 'public')));
 
+index.post('/data/postTest' , function (req, res) {
+    var dataReceived = req.body;
+    console.log(dataReceived);
+    res.json(dataReceived);
+});
+
 index.get('/', function (req, res) {
     res.send('Hello World');
 })
