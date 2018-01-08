@@ -23,7 +23,8 @@ index.use(express.static(path.join(__dirname, 'public')));
 
 index.post('/data/postTest' , function (req, res) {
     var dataReceived = req.body;
-    console.log(dataReceived);
+    console.log("postTest:" + JSON.stringify(dataReceived));
+    console.log("postTest:" + dataReceived.time.hour);
     res.json(dataReceived);
 });
 
